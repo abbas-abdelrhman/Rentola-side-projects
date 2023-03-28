@@ -1,0 +1,3 @@
+[
+{"spider_name": "alphabitat", "No of Errors": 2, "ERROR": ["ERROR: Spider error processing", "TypeError:"], "scraped_items": 0, "_id": "SFR-2182", "log_link": "https://scrapyd.rentola.tech/3/logs/python_spiders/alphabitat/d7612706cc3311ed80943a215ea3b54d.log", "issue_link": "https://rentola-dev.atlassian.net/browse/SFR-2182"}
+]

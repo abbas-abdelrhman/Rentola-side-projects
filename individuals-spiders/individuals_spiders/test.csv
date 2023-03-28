@@ -1,0 +1,12 @@
+spider_name,No of Errors,ERROR,scraped_items,_id,log_link,issue_link
+rentaladvisors_ca,0,set(),51,43844,https://scrapyd.rentola.tech/3/logs/python_spiders/rentaladvisors_ca/c31153a8be0e11ed80943a215ea3b54d.log,https://rentola-dev.atlassian.net/browse/SFR-2132
+rentler_com,1,{'ERROR: Gave up retrying'},387,43159,https://scrapyd.rentola.tech/3/logs/python_spiders/rentler_com/c7dfae7abe0e11ed80943a215ea3b54d.log,https://rentola-dev.atlassian.net/browse/SFR-1987
+kinmakelaars_nl,0,set(),11,43872,https://scrapyd.rentola.tech/0/logs/python_spiders/kinmakelaars_nl/f2bca5b2be0e11ed9a4d427873239941.log,https://rentola-dev.atlassian.net/browse/SFR-2136
+dixonsestateagents_co_uk,2,"{'ERROR: Spider error processing', 'TypeError:'}",69,43284,https://scrapyd.rentola.tech/0/logs/python_spiders/dixonsestateagents/1ae53cacbe0f11ed9a4d427873239941.log,https://rentola-dev.atlassian.net/browse/SFR-2042
+bricksmakelaardij_nl,0,set(),19,43878,https://scrapyd.rentola.tech/0/logs/python_spiders/bricksmakelaardij_nl/224c7dcabe0f11ed9a4d427873239941.log,https://rentola-dev.atlassian.net/browse/SFR-2142
+dolcevita_vip,0,set(),26,43714,https://scrapyd.rentola.tech/0/logs/python_spiders/dolcevita_vip/b09dc602be0e11ed9a4d427873239941.log,https://rentola-dev.atlassian.net/browse/SFR-2117
+nexaproperties_com,0,set(),2,43822,https://scrapyd.rentola.tech/1/logs/python_spiders/020beheer_nl/aad470b8be0e11eda331c6ec4929fa5a.log,https://rentola-dev.atlassian.net/browse/SFR-2130
+raywhite_com,0,set(),129,42945,https://scrapyd.rentola.tech/1/logs/python_spiders/raywhite_com/bba3ae4abe0e11eda331c6ec4929fa5a.log,https://rentola-dev.atlassian.net/browse/SFR-1944
+burbridge_ducann_com,0,set(),2,43820,https://scrapyd.rentola.tech/1/logs/python_spiders/burbridge_ducann_com/a6b93d42be0e11eda331c6ec4929fa5a.log,https://rentola-dev.atlassian.net/browse/SFR-2129
+nexaproperties_com,0,set(),,43822,https://scrapyd.rentola.tech/0/logs/python_spiders/03invest_be/c3a1c2d0be0e11ed9a4d427873239941.log,https://rentola-dev.atlassian.net/browse/SFR-2130
+nexaproperties_com,0,set(),122,43822,https://scrapyd.rentola.tech/2/logs/python_spiders/nexaproperties_com_en/a7417c20be0e11edbc2e52e8de17fd7c.log,https://rentola-dev.atlassian.net/browse/SFR-2130
