@@ -3,8 +3,8 @@ import json
 import requests
 from requests.auth import HTTPBasicAuth
 
-auth = HTTPBasicAuth("abdelrahmanabbas@rentola.com",
-                     "ATATT3xFfGF0DfHikWVALUl1pUOseFl9GHHFHB99T5mZYvDiBErDESLVdechg4giVAT09ZBN9lVtsC2tUQb8AKns5RhYgKy_nJnjSUaVx01HmWdtjHYFyjANP75k3Yj5-s_OQTedNtSCajRhBwUp2VlbzPB9DbyRRv2XEjzWXHQ1-Fh3JzZo3Jk=D7F14C08")
+auth = HTTPBasicAuth("e-mail",
+                     "auth-code")
 
 
 def add_comment(issueIdOrKey, comment, log_link):
