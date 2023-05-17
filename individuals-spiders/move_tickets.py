@@ -8,7 +8,7 @@ auth = HTTPBasicAuth("e-mail",
 
 
 def add_comment(issueIdOrKey, comment, log_link):
-    url = f"https://rentola-dev.atlassian.net/rest/api/3/issue/{issueIdOrKey}/comment"
+    url = f"https://rentola.atlassian.net/rest/api/3/issue/{issueIdOrKey}/comment"
 
     headers = {
         "Accept": "application/json",
@@ -55,7 +55,7 @@ def add_comment(issueIdOrKey, comment, log_link):
 
 
 def moving_tickets(issueIdOrKey, column_id):
-    url = f"https://rentola-dev.atlassian.net/rest/api/3/issue/{issueIdOrKey}/transitions"
+    url = f"https://rentola.atlassian.net/rest/api/3/issue/{issueIdOrKey}/transitions"
 
     headers = {
         "Accept": "application/json",
