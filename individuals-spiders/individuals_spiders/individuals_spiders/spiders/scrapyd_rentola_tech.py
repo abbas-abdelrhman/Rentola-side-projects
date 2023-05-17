@@ -18,7 +18,7 @@ class ScrapydRentolaTechSpider(scrapy.Spider):
     ]
 
     headers = {
-        "authorization": "Basic ZmJhZG1pbjphZG1pbmZi",
+        "authorization": "Basic auth-code",
         "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
     }
 
@@ -119,8 +119,8 @@ class ScrapydRentolaTechSpider(scrapy.Spider):
 
 
 def jira_tickets():
-    auth = HTTPBasicAuth("abdelrahmanabbas@rentola.com",
-                         "ATATT3xFfGF0DfHikWVALUl1pUOseFl9GHHFHB99T5mZYvDiBErDESLVdechg4giVAT09ZBN9lVtsC2tUQb8AKns5RhYgKy_nJnjSUaVx01HmWdtjHYFyjANP75k3Yj5-s_OQTedNtSCajRhBwUp2VlbzPB9DbyRRv2XEjzWXHQ1-Fh3JzZo3Jk=D7F14C08")
+    auth = HTTPBasicAuth("email",
+                         "auth-code")
 
     # url = """https://rentola-dev.atlassian.net/rest/api/3/search?jql=project%20%3D%20"SFR"%20AND%20status%20%3D%20"Waiting%204%20Automatic%20Submission"%20AND%20updated%20<%3D%20-1w%20ORDER%20BY%20assignee%20ASC%2C%20created%20DESC%2C%20issuekey%20ASC%2C%20summary%20ASC&referrer=agility&maxResults=100"""
     url = """https://rentola-dev.atlassian.net/rest/api/3/search?jql=project%20%3D%20"SFR"%20AND%20status%20IN%20%28"Waiting%204%20Automatic%20Submission"%29%20AND%20assignee%20%3D%20"61e56a235fcc370068593255"%20ORDER%20BY%20created%20DESC%2C%20issuekey%20ASC%2C%20summary%20ASC&referrer=agility"""
@@ -146,7 +146,7 @@ def jira_tickets():
             s_names[f"https://rentola-dev.atlassian.net/browse/{issue.get('key')}"] = clean(s_name), _id
 
     # return s_names
-    return {'https://rentola-dev.atlassian.net/browse/SFR-2182': ('alphabitat', 'SFR-2182'),
+    return {'https://rentola.atlassian.net/browse/SFR-2182': ('alphabitat', 'SFR-2182'),
             # 'https://rentola-dev.atlassian.net/browse/SFR-218': ('ladresse.com', 'SFR-2182'),
             }
 
